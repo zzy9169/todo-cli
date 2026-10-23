@@ -1,0 +1,6 @@
+# 所有文本文件统一按 LF 存进仓库
+* text=auto eol=lf
+
+# Windows 脚本必须是 CRLF（有些老工具会读坏 LF 的 bat）
+*.bat text eol=crlf
+*.cmd text eol=crlf
